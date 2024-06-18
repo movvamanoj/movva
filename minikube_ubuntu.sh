@@ -3,6 +3,8 @@
 # Update package list
 sudo apt update -y
 
+sudo apt install openjdk-11-jdk -y
+
 # Install necessary certificates and curl
 sudo apt install ca-certificates curl -y
 
