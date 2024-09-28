@@ -4,6 +4,8 @@
 # sudo ./disable_zscaler.sh
 # sudo find /etc /opt /usr /var -name "*zscaler*"
 #  sudo find / -iname "*zscaler*" 2>/dev/null
+# sudo rm /opt/traps/forensics/*/Zscaler-linux-*.run
+# rm -rf /home/user/.Zscaler
 # sudo cat /opt/zscaler/.config/zscaler-user.session
 # cd /etc/systemd/system/
 # cat zsaservice.service
