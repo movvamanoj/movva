@@ -1,7 +1,20 @@
 #!/bin/bash
 
-#  chmod +x disable_zscaler.sh
-#  sudo ./disable_zscaler.sh
+# chmod +x disable_zscaler.sh
+# sudo ./disable_zscaler.sh
+# sudo find /etc /opt /usr /var -name "*zscaler*"
+#  sudo find / -iname "*zscaler*" 2>/dev/null
+# sudo cat /opt/zscaler/.config/zscaler-user.session
+# cd /etc/systemd/system/
+# cat zsaservice.service
+# nano zsaservice.service
+# nano zstunnel.service
+# rm /opt/zscaler/.config.ini
+# cat /var/cache/debconf/config.dat
+# rm /var/cache/debconf/templates.dat
+# cat /etc/firefox/zscaler.cfg
+# rm -rf /opt/zscaler/.config/* /opt/zscaler/.rollbackBackupDirectory/*
+
 
 # Variables for Zscaler service files
 ZSASERVICE_FILE="/etc/systemd/system/zsaservice.service"
